@@ -16,7 +16,7 @@ import json
 
 def connect_sql(topic):
 	#connect to db, return list of articles
-	ip='140.116.247.169'
+	ip='database ip'
 	user = 'iir'
 	passwd = 'iir_5757'
 	db = 'computex2018'
