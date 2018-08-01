@@ -7,4 +7,4 @@ notice : variable 'ip' in connect_sql/views.py needs to be change.
 
 If you want to load web template(.js/.css) , put them into 'static' directory.
 .CSS → fix the 'href' in 'link' in 'web.html' like {% static 'yourcss.css' %}.
-.js → fix the 'src' in <scrpit> in 'web.html' like src=<scrpit src="{% static 'yourjs.js' %}"></script>
+.js → fix the 'src' in <scrpit> in 'web.html' like src="{% static 'yourjs.js' %}">
